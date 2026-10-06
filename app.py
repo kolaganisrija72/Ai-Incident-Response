@@ -2,7 +2,7 @@ import streamlit as st
 import json
 from datetime import datetime
 
-from backend.incident_processor import process_incident
+from incident_processor import process_incident
 from backend.ai_analyzer import analyze_incident as backend_analyze_incident
 from backend.severity_engine import calculate_severity
 from backend.root_cause_engine import find_root_cause
