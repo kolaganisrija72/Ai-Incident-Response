@@ -19,7 +19,7 @@ st.set_page_config(
 
 
 with open(
-    "frontend/style.css",
+   "style.css",
     "r",
     encoding="utf-8"
 ) as f:
