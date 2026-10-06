@@ -4,13 +4,12 @@ from datetime import datetime
 
 from incident_processor import process_incident
 from ai_analyzer import analyze_incident as backend_analyze_incident
-from backend.severity_engine import calculate_severity
-from backend.root_cause_engine import find_root_cause
-from backend.impact_engine import assess_impact
-from backend.risk_engine import calculate_risk
-from backend.decision_engine import make_decision
-from backend.recommendation_engine import generate_recommendations
-
+from severity_engine import calculate_severity
+from root_cause_engine import find_root_cause
+from impact_engine import assess_impact
+from risk_engine import calculate_risk
+from decision_engine import make_decision
+from recommendation_engine import generate_recommendations
 
 st.set_page_config(
     page_title="AI Incident Response",
